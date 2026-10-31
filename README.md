@@ -2,7 +2,7 @@
 
 A formally checked Cryptol specification of SLH-DSA, the stateless hash based signature scheme in FIPS 205, written for the NSA Foundation framework.
 
-SLH-DSA is one of the two signatures that CNSA 2.0 requires, and the Foundation repository of formal cryptographic specifications does not yet cover any post quantum scheme. This fills that gap. The specification reuses Foundation's own SHAKE and Keccak modules and is laid out to drop into its algorithms directory as algorithms/SLH_DSA.
+SLH-DSA is one of the post quantum signature standards NIST published in FIPS 205, and the Foundation repository of formal cryptographic specifications does not yet cover any post quantum scheme. This fills that gap. SLH-DSA is built entirely on the hash functions Foundation already specifies, so the specification reuses Foundation's own SHAKE and Keccak modules and is laid out to drop into its algorithms directory as algorithms/SLH_DSA.
 
 ## What is here
 
